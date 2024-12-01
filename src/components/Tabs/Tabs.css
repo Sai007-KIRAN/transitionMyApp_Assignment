@@ -1,0 +1,106 @@
+.tabs-container {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    background-color: #f9f9f9;
+    gap: 15px;
+  }
+  
+
+  .contact-list {
+    display: flex;
+    gap: 10px;
+    overflow-x: auto;
+    padding: 5px 0;
+  }
+  
+  .contact-item {
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    padding: 8px 12px;
+    gap: 10px;
+    width: 213px;
+    height: 64px;
+    background: #FFFFFF;
+    border-radius: 10px 10px 0px 0px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+  }
+  
+  .contact-item.active {
+    background-color: #eaf4ff;
+    border: 2px solid #007bff;
+    transform: scale(1.05);
+  }
+  
+  .avatar {
+    box-sizing: border-box;
+  
+    width: 48px;
+    height: 48px;
+    
+    background: #EEF0F5 !important;
+    color: #333 !important;
+    border: 1px solid rgba(76, 98, 146, 0.1);
+    border-radius: 50px;
+    
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    z-index: 0;  
+  }
+  
+
+  .name {
+    font-size: 12px;
+    color: #333;
+  }
+  
+
+  .messaging-button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    padding: 8px 16px;
+    font-size: 12px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-top: 10px;
+  }
+  
+  .messaging-button:hover {
+    background-color: #0056b3;
+  }
+  
+
+  .contact-list::-webkit-scrollbar {
+    height: 6px;
+  }
+  
+  .contact-list::-webkit-scrollbar-thumb {
+    background-color: #bbb;
+    border-radius: 3px;
+  }
+  
+  .contact-list::-webkit-scrollbar-track {
+    background-color: #f1f1f1;
+  }
+  
+  .msg-btn {
+    box-sizing: border-box;
+      display: flex;
+      align-items: center;
+      padding: 8px 12px;
+      gap: 10px;
+      width: 207px;
+      color: #fff;
+      height: 64px;
+      background: #0F8BFD;
+      border-radius: 10px 10px 0px 0px;
+      flex: none;
+      order: 6;
+      flex-grow: 0;
+  }

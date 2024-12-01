@@ -1,0 +1,88 @@
+.app-container {
+  display: flex;
+  flex-direction: column;
+  font-family: Arial, sans-serif;
+}
+
+.content-area {
+  display: flex;
+  flex-direction: row;
+  margin-top: 20px;
+}
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+
+.header {
+  height: 60px;
+  background-color: #fff;
+  border-bottom: 1px solid #ddd;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+
+.main-content {
+  display: flex;
+  flex: 1; 
+}
+
+.sidebar {
+  width: 250px; 
+  background-color: #f4f4f4;
+  border-right: 1px solid #ddd;
+  overflow-y: auto; 
+}
+
+.main-section {
+  flex: 1; 
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  overflow: auto;
+}
+
+
+.tabs-container {
+  background-color: #fafafa;
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+
+.content-area {
+  display: flex;
+  flex: 1; 
+  padding: 10px;
+  gap: 10px; 
+  overflow-y: auto; 
+}
+
+.customer-details,
+.action-panel {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+
+.customer-details {
+  flex: 1;
+  max-width: 20%;
+}
+
+.conversation-section {
+  flex: 2;
+}
+
+.action-panel {
+  flex: 1;
+  max-width: 20%; 
+}
